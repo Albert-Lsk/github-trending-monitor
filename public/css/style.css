@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.project-title:hover {
+    text-decoration: underline;
+}
+
+.language-badge {
+    font-size: 0.75rem;
+}
+
+.stars-badge {
+    background-color: #28a745;
+}
+
+.forks-badge {
+    background-color: #6f42c1;
+}
+
+.description-text {
+    color: #586069;
+    font-size: 0.9rem;
+}
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.header-icon {
+    color: #0366d6;
+}

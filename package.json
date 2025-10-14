@@ -1,0 +1,31 @@
+{
+  "name": "github-trending-monitor",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "github",
+    "trending",
+    "monitor",
+    "markdown",
+    "scheduler"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "description": "A tool to monitor GitHub trending projects and generate daily reports",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  }
+}
