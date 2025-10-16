@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "servers": [
+    {
+      "name": "code-runner",
+      "description": "Code execution server for GitHub trending monitor project",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@iflow-mcp/mcp-server-code-runner"
+      ],
+      "protocol": "stdio"
+    }
+  ]
+}

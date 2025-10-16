@@ -5,14 +5,18 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "mcp:start": "npx -y @iflow-mcp/mcp-server-code-runner",
+    "mcp:dev": "iflow mcp list"
   },
   "keywords": [
     "github",
     "trending",
     "monitor",
     "markdown",
-    "scheduler"
+    "scheduler",
+    "mcp",
+    "model-context-protocol"
   ],
   "author": "Developer",
   "license": "MIT",

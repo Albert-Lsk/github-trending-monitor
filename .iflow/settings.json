@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "\"context7\"": {
+      "command": "\"npx\"",
+      "args": [
+        "\"-y\"",
+        "\"@iflow-mcp/context7-mcp@1.0.0\""
+      ]
+    },
+    "mcp-server-code-runner": {
+      "description": "多语言代码执行器，支持35种编程语言的代码片段执行，包括JavaScript、Python、Go、Java等主流语言",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@iflow-mcp/mcp-server-code-runner"
+      ]
+    },
+    "fastmcp-data-analysis-server": {
+      "description": "提供全面的数据分析工具，包括统计函数、概率分布计算和数据处理功能",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "iflow-mcp_fastmcp-data-analysis-server",
+        "fastmcp-data-analysis-server"
+      ]
+    }
+  }
+}

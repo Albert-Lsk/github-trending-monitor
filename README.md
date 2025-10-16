@@ -13,6 +13,7 @@
 - 🌐 **Web 界面**：响应式设计，支持多设备访问
 - 🃏 **卡片展示**：以直观的卡片形式展示项目信息
 - 📚 **历史报告**：查看和管理历史生成的报告
+- 🤖 **MCP 集成**：支持 Model Context Protocol 进行智能代码执行
 
 ## 技术栈
 
@@ -22,6 +23,7 @@
 - **任务调度**: node-cron
 - **文件格式**: Markdown
 - **测试**: Jest
+- **智能协议**: Model Context Protocol (MCP)
 
 ## 项目结构
 
@@ -97,6 +99,33 @@ npm run test:watch
 - **数据获取任务**：每天 8:30 执行
 - **提醒任务**：每天 9:30 执行
 
+## MCP (Model Context Protocol) 集成
+
+本项目集成了 Model Context Protocol (MCP) 以支持智能代码执行和自动化任务。
+
+### MCP 安装和配置
+
+1. 确保已安装 iFlow CLI:
+   ```bash
+   npm install -g @iflow-ai/iflow-cli
+   ```
+
+2. 启动 MCP 服务器:
+   ```bash
+   npm run mcp:start
+   ```
+
+3. 检查 MCP 服务器状态:
+   ```bash
+   npm run mcp:dev
+   ```
+
+### MCP 功能
+
+- 代码执行：使用 `mcp-server-code-runner` 服务器执行 Node.js 代码片段
+- 自动化任务：通过 MCP 协议自动执行定时任务
+- 智能辅助：在开发过程中提供智能代码建议和自动化操作
+
 ## 开发计划
 
 - [x] 基础架构搭建
@@ -105,6 +134,7 @@ npm run test:watch
 - [x] 定时任务系统
 - [x] Markdown 报告生成
 - [x] 测试覆盖
+- [x] MCP 集成
 - [ ] 用户认证系统
 - [ ] 邮件通知功能
 - [ ] 数据库持久化
